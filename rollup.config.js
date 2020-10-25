@@ -14,10 +14,10 @@ export default {
       file: pkg.common,
       format: 'cjs'
     },
-    // {
-    //   file: pkg.module,
-    //   format: 'es'
-    // }
+    {
+      file: pkg.module,
+      format: 'es'
+    }
   ],
   plugins: [
     json(),
