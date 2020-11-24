@@ -4,9 +4,9 @@
   "scripts": {
     "build": "rollup -c"
   },
-  "main": "dist/index.js", // 全局打包
-  "common": "dist/index.common.js", // common模块化打包
-  "module": "dist/index.esm.js", // es模块化打包
+  "main": "dist/index.js",
+  "common": "dist/index.common.js",
+  "module": "dist/index.esm.js",
   "dependencies": {},
   "devDependencies": {
     "@rollup/plugin-babel": "^5.2.1",
